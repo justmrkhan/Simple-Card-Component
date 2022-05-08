@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  border-radius: 3%;
+  margin-top: 5%;
+  padding: 20px;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(216, 50%, 16%);
+  /* Defines the maximum width it can grow to. */
+  max-width: 300px;
+  width: 90%;
+}
+
+.eq_img {
+  width: 290px;
+  border-radius: 3%;
+  margin-bottom: 18px;
+}
+
+.nft_name {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.nft_description {
+  font-size: 18px;
+  font-weight: 400;
+  color: hsl(215, 32%, 45%);
+  margin-bottom: 20px;
+}
+
+.third_section {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.price {
+  /* display: flex; */
+  margin-right: 80px;
+}
+
+.price_img {
+  width: 20px;
+  height: 25px;
+  margin-right: 8px;
+}
+
+.price_text {
+  display: flex;
+  font-weight: 600;
+  font-size: 15px;
+  color: hsl(178, 100%, 50%);
+}
+
+.clock {
+  display: flex;
+  /* margin-bottom: 20px; */
+}
+
+.clock_img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.clock_text {
+  align-self: center;
+  font-weight: 600;
+  font-size: 15px;
+  color: hsl(215, 51%, 70%);
+}
+
+hr {
+  border: hsl(215, 32%, 27%) solid 0.2px;
+  margin-bottom: 20px;
+}
+
+.credits {
+  display: flex;
+}
+
+.credits_img {
+  width: 38px;
+  margin-right: 10px;
+}
+
+.credits_text {
+  color: hsl(215, 32%, 27%);
+  align-self: center;
+}
+
+.credits_span {
+  color: hsl(178, 100%, 50%);
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+  /* gap: 1rem; */
+}
